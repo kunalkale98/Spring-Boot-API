@@ -17,6 +17,6 @@ public class ApplicationController {
 	notes = "API for checking the status of service working properly or not. If the message is displayed in response"
 			+ "with 200 status then the api is working properly.")
 	public ResponseEntity<String> getApiStatus() {
-		return ResponseEntity.ok("Backend Working properly");
+		return ResponseEntity.ok("Hello World");
 	}
 }
